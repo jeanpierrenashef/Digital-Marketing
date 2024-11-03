@@ -32,7 +32,7 @@ input {
     outline: 0;
 }
 
-.button {
+button {
     border: 0;
     cursor: pointer;
     height: 35px;

@@ -71,13 +71,7 @@ a {
     transform: translateY(-2px);
 }
 .contact-btn{
-    border: 0;
-    cursor: pointer;
-    height: 35px;
-    padding: 0 25px;
-    border-radius: 100px;
-    font-weight: bold;
-    transition: all 0.3s;
+
     background-color: #21DADB;
     color: white;
     font-family: 'Poppins-SemiBold';
