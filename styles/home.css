@@ -97,6 +97,9 @@ a {
     padding-top: 100px;
     font-size: 56px;
 }
+.hook > h2{
+    color: white;
+}
 .bg-image  div{
     width: 50%;
 

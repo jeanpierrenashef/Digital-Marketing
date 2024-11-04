@@ -33,74 +33,63 @@
     padding: 0;
     box-sizing: border-box;
 }
-.digital-work{
-    width: 100%;
-    height: 100vh;
-    padding: 70px 50px;
-}
-.digital-work div{
-    width:70%;
-}
-.left-side{
+.solutions{
+    justify-content: start;
+    align-items: start;
     gap:20px;
-    width: 100%;
+    padding:50px;
+    position:relative;
+    background: url('../assets/icons/solutions-bg.png') no-repeat center center; 
+    background-size: cover; 
+    background-attachment: fixed;
+    
 }
-.left-side div{
-    width: 100%;
-}
-.left-side h1{
-    font-family: "Poppins-Thin";
+.solutions h1{
+    color:black;
     font-size: 36px;
-    color: black;
-}
-.left-side p{
-    font-family: 'Poppins-Regular' ;
-    font-size: 20px;
-    color: #333333;
-}
-highlight{
-    color: #4D94E6;
     font-family: "Poppins-Bold";
 }
-.accomplishments{
-    justify-content: space-between;
-    align-items: center;
-
+.solutions p{
+    font-family: 'Poppins-Regular' ;
+    font-size: 20px;
+    color: #000000;
 }
-.accomplishments div{
-    width: 50%;
-}
-.left-col, .right-col{
-    width: 100%;
-    gap:15px;
-    padding:20px 0px;
-    align-items: center;
-
-}
-.left-col div, .right-col div{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    padding-right: 5px;
-}
-
-.left-col div > div, .right-col div > div{
-    height: 70%;
-    width: auto;
-}
-.left-col div > p , .right-col div > p{
-    padding-right: 5px;
-    font-family: "Poppins-Regular";
-    font-size: 14px;
-    color:  #333333;
-}
-
-.explore-button{
-    width: 40%;
-    background-color: #35BBDF;
-    color:white;
+.solutions h3{
     font-family: 'Poppins-SemiBold';
-    font-size: 18px;
+    font-size: 25px;
+    color: #000000;
 }
+.service-containers {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    max-width: 320px;
+    min-width: 270px;
+    background-color:white;
+    border-radius: 25px;
+    align-items: center;
+    padding: 15px; 
+    gap: 15px;
+  }
+  .card img{
+    width: 30px;
+    height: auto;
+  }
+  .card h4{
+    font-family: 'Poppins-Regular';
+
+  }
+  .card p{
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+  }
