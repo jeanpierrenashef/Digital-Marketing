@@ -16,12 +16,27 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../assets/fonts/Poppins-Thin.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-
+.welcome{
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    font-size: 56px;
+    padding: 20px 50px 15px 50px;
+    font-weight: bold;
+}
+.company-name{
+    font-family: 'Poppins-Bold'
+}
 body{
     min-height: 100vh;
     overflow-x: hidden;
@@ -71,9 +86,11 @@ a {
     transform: translateY(-2px);
 }
 .contact-btn{
+    padding: 0 25px;
     background-color: #21DADB;
     color: white;
     font-family: 'Poppins-SemiBold';
+
 }
 .bg-image{
     position:relative;
