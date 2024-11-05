@@ -3,6 +3,7 @@ footer {
     color: #000000;
     padding: 40px 20px;
     font-family: "Poppins-Medium";
+    background-image: linear-gradient(to right bottom, #21dadb, #17d4de, #14cfdf, #1ac9e0, #25c3e0, #1fbee2, #1fb9e3, #25b3e4, #23ace6, #2da5e8, #3c9de8, #4d94e6);
 }
 
 
