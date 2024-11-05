@@ -112,7 +112,13 @@ a {
 }
 .hook > p{
     color: white;
-    font-family: "Poppins-SemiBold";
+    font-family: "Poppins-Bold";
+    padding-top: 100px;
+    font-size: 56px;
+}
+.unique{
+    color: white;
+    font-family: "Poppins-Regular";
     padding-top: 100px;
     font-size: 56px;
 }
