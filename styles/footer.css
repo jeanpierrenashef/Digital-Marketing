@@ -1,0 +1,88 @@
+footer {
+    background-color: rgb(255, 255, 255);;
+    color: #000000;
+    padding: 40px 20px;
+    font-family: "Poppins-Medium";
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000000;
+
+}
+.contact{
+    padding-left:90px;
+}
+.footer-section p,
+.footer-section a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-family: "Poppins-Regular";
+}
+
+
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns .column {
+    margin-right: 20px;
+}
+
+.footer-columns h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-columns ul {
+    list-style: none;
+}
+
+.footer-columns ul li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.app-links a img {
+    width: 150px;
+    margin-right: 10px;
+}
