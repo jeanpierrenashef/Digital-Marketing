@@ -38,10 +38,14 @@
     align-items: start;
     gap:20px;
     padding:50px;
+}
+.solutions-part{
+    padding: 0;
     position:relative;
     background: url('../assets/icons/solutions-bg.png') no-repeat center center; 
     background-size: cover; 
     background-attachment: fixed;
+   
     
 }
 .solutions h1{
