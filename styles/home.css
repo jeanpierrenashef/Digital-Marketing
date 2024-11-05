@@ -59,6 +59,7 @@ a {
     width: 100%;
     z-index: 10;
     padding: 20px 35px;
+    transition: background-color 0.3s ease;
 
 }
 .nav-logo > img{
