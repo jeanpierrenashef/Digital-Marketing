@@ -77,3 +77,8 @@
     width: 90px;
     height: auto;
 }
+.learn-more-btn {
+    background-color: transparent;
+    color: black;
+    font-family: 'Poppins-Regular';
+}
