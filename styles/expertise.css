@@ -33,30 +33,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.solutions{
+.solutions {
+    display: flex;
+    flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap:20px;
-    padding:50px;
+    gap: 20px;
 }
-.solutions-part{
-    padding: 0;
-    position:relative;
+
+.solutions .solutions-text {
+    padding: 50px;  
+}
+
+.solutions-part {
+    padding: 0;  
+    position: relative;
     background: url('../assets/icons/solutions-bg.png') no-repeat center center; 
     background-size: cover; 
     background-attachment: fixed;
-   
-    
 }
+    
+
 .solutions h1{
-    color:black;
+    font-family: "Poppins-Thin";
     font-size: 36px;
-    font-family: "Poppins-Bold";
+    color: black;
 }
 .solutions p{
     font-family: 'Poppins-Regular' ;
     font-size: 20px;
-    color: #000000;
+    color: #333333;
 }
 .solutions h3{
     font-family: 'Poppins-SemiBold';
